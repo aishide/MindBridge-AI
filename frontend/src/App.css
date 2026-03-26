@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #38bdf8;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+}
+
+/* Result */
+.result {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.result.high {
+  background: #7f1d1d;
+}
+
+.result.low {
+  background: #14532d;
+}
+
+/* Dashboard */
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 22%;
+}
+
+/* Mood */
+.mood-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.mood-item {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.mood-item:hover {
+  background: #334155;
+}
+
+.mood-selected {
+  background: #38bdf8;
+}
+
+.result-box {
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+/* 🔴 HIGH RISK */
+.red {
+  background: linear-gradient(135deg, #ff4d4d, #b30000);
+}
+
+/* 🟡 MEDIUM RISK */
+.yellow {
+  background: linear-gradient(135deg, #ffa500, #cc8400);
+}
+
+/* 🟢 LOW RISK */
+.green {
+  background: linear-gradient(135deg, #4caf50, #087f23);
+}
